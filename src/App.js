@@ -26,7 +26,7 @@ function App() {
   }
   return (
     <Layout>
-      <h1>Smira Challenge</h1>
+      <h1>Sirma Challenge</h1>
       <CsvInput onFileSelect={onFileSelect} />
       {<Table headers={headers} rows={rows} />}
     </Layout>
